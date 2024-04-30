@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Mobile" time="71.706" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Mobile" tests="1" failures="0" errors="0" time="71.706" skipped="0" timestamp="01-04-2024T23:56:34" hostname="1556 - LAPTOP-PT885S91" id="Test Suites/TS_Mobile">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\1556\\Katalon Studio\\Iglo msa\\Reports\\20240401_235621\\TS_Mobile\\20240401_235622"/>
+         <property name="logFiles" value="C:\\Users\\1556\\Katalon Studio\\Iglo msa\\Reports\\20240401_235621\\TS_Mobile\\20240401_235622\\appium.log, C:\\Users\\1556\\Katalon Studio\\Iglo msa\\Reports\\20240401_235621\\TS_Mobile\\20240401_235622\\appium_error.log, C:\\Users\\1556\\Katalon Studio\\Iglo msa\\Reports\\20240401_235621\\TS_Mobile\\20240401_235622\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Before Add Prospect Customer.png, keyes\keyes-After Add Prospect Customer.png"/>
+         <property name="hostName" value="1556 - LAPTOP-PT885S91"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.1&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.1"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.100.139"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Verify Successful Add Prospect Customer" time="71.437" classname="Test Cases/Mobile/Verify Successful Add Prospect Customer" status="PASSED">
+         <system-out><![CDATA[01-04-2024T23:56:35 - [TEST_CASE][PASSED] - Test Cases/Mobile/Verify Successful Add Prospect Customer: Test Cases/Mobile/Verify Successful Add Prospect Customer
+
+01-04-2024T23:56:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Verify Successful Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Verify Successful Login' successfully
+
+01-04-2024T23:56:35 - [TEST_CASE][PASSED] - Test Cases/Mobile/Verify Successful Login: Test Cases/Mobile/Verify Successful Login
+
+01-04-2024T23:56:36 - [TEST_STEP][PASSED] - startApplication(url_apk, true): Started app at: 'C:\Users\1556\Documents\Tools\iglo_msa_v2.apk'
+
+01-04-2024T23:56:36 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+01-04-2024T23:56:42 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+01-04-2024T23:56:42 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\1556\.appium
+
+01-04-2024T23:56:42 - [MESSAGE][INFO] - appium outlog: C:\Users\1556\Katalon Studio\Iglo msa\Reports\20240401_235621\TS_Mobile\20240401_235622\appium.log
+
+01-04-2024T23:56:42 - [MESSAGE][INFO] - appium errlog: C:\Users\1556\Katalon Studio\Iglo msa\Reports\20240401_235621\TS_Mobile\20240401_235622\appium_error.log
+
+01-04-2024T23:56:46 - [MESSAGE][INFO] - Appium server started on port 62,503
+
+01-04-2024T23:57:08 - [MESSAGE][PASSED] - Started app at: 'C:\Users\1556\Documents\Tools\iglo_msa_v2.apk'
+
+01-04-2024T23:57:08 - [TEST_STEP][PASSED] - delay(timeout, STOP_ON_FAILURE): Delayed 3 second(s)
+
+01-04-2024T23:57:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+01-04-2024T23:57:11 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Login/txt_username"), timeout): Tapped on element 'Object Repository/Mobile/Login/txt_username'
+
+01-04-2024T23:57:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Login/txt_username'
+
+01-04-2024T23:57:13 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile/Login/txt_username"), username_mobile, timeout): Text 'admin@indocyber.id' has been set to element 'Object Repository/Mobile/Login/txt_username'
+
+01-04-2024T23:57:15 - [MESSAGE][PASSED] - Text 'admin@indocyber.id' has been set to element 'Object Repository/Mobile/Login/txt_username'
+
+01-04-2024T23:57:15 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+01-04-2024T23:57:16 - [MESSAGE][PASSED] - Keyboard is hidden
+
+01-04-2024T23:57:16 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Login/txt_password"), timeout): Tapped on element 'Object Repository/Mobile/Login/txt_password'
+
+01-04-2024T23:57:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Login/txt_password'
+
+01-04-2024T23:57:17 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile/Login/txt_password"), password_mobile, timeout): Text '123' has been set to element 'Object Repository/Mobile/Login/txt_password'
+
+01-04-2024T23:57:19 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/Mobile/Login/txt_password'
+
+01-04-2024T23:57:19 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+01-04-2024T23:57:21 - [MESSAGE][PASSED] - Keyboard is hidden
+
+01-04-2024T23:57:21 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Login/btn_login"), timeout): Tapped on element 'Object Repository/Mobile/Login/btn_login'
+
+01-04-2024T23:57:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Login/btn_login'
+
+01-04-2024T23:57:22 - [TEST_STEP][PASSED] - delay(timeout): Delayed 3 second(s)
+
+01-04-2024T23:57:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+01-04-2024T23:57:25 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Mobile/Login/title_home"), timeout): Element 'Object Repository/Mobile/Login/title_home' is exist
+
+01-04-2024T23:57:26 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Login/title_home' is exist
+
+01-04-2024T23:57:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Verify Successful Login' successfully
+
+01-04-2024T23:57:26 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Menu Customer Update/menu_customerUpdate"), timeout): Tapped on element 'Object Repository/Mobile/Menu Customer Update/menu_customerUpdate'
+
+01-04-2024T23:57:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Menu Customer Update/menu_customerUpdate'
+
+01-04-2024T23:57:27 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/common/btn_add"), timeout): Tapped on element 'Object Repository/Mobile/common/btn_add'
+
+01-04-2024T23:57:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/common/btn_add'
+
+01-04-2024T23:57:28 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Menu Customer Update/btn_prospectCustomer"), timeout): Tapped on element 'Object Repository/Mobile/Menu Customer Update/btn_prospectCustomer'
+
+01-04-2024T23:57:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Menu Customer Update/btn_prospectCustomer'
+
+01-04-2024T23:57:29 - [TEST_STEP][PASSED] - delay(timeout): Delayed 3 second(s)
+
+01-04-2024T23:57:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+01-04-2024T23:57:32 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Before Add Prospect Customer", []): Screenshot is taken
+
+01-04-2024T23:57:33 - [MESSAGE][INFO] - 0 hidden object(s)
+
+01-04-2024T23:57:33 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Before Add Prospect Customer.png]]
+
+01-04-2024T23:57:33 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Menu Customer Update/txt_customerName"), timeout): Tapped on element 'Object Repository/Mobile/Menu Customer Update/txt_customerName'
+
+01-04-2024T23:57:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Menu Customer Update/txt_customerName'
+
+01-04-2024T23:57:34 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile/Menu Customer Update/txt_customerName"), findTestData("Prospect Customer").getValue(1, 1), timeout): Text 'Tan Malaka' has been set to element 'Object Repository/Mobile/Menu Customer Update/txt_customerName'
+
+01-04-2024T23:57:35 - [MESSAGE][PASSED] - Text 'Tan Malaka' has been set to element 'Object Repository/Mobile/Menu Customer Update/txt_customerName'
+
+01-04-2024T23:57:35 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Menu Customer Update/txt_customerInitial"), timeout): Tapped on element 'Object Repository/Mobile/Menu Customer Update/txt_customerInitial'
+
+01-04-2024T23:57:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Menu Customer Update/txt_customerInitial'
+
+01-04-2024T23:57:36 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile/Menu Customer Update/txt_customerInitial"), findTestData("Prospect Customer").getValue(2, 1), timeout): Text 'TMK' has been set to element 'Object Repository/Mobile/Menu Customer Update/txt_customerInitial'
+
+01-04-2024T23:57:37 - [MESSAGE][PASSED] - Text 'TMK' has been set to element 'Object Repository/Mobile/Menu Customer Update/txt_customerInitial'
+
+01-04-2024T23:57:37 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Menu Customer Update/dropdown_classification"), timeout): Tapped on element 'Object Repository/Mobile/Menu Customer Update/dropdown_classification'
+
+01-04-2024T23:57:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Menu Customer Update/dropdown_classification'
+
+01-04-2024T23:57:38 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Menu Customer Update/txt_classification_commercial"), timeout): Tapped on element 'Object Repository/Mobile/Menu Customer Update/txt_classification_commercial'
+
+01-04-2024T23:57:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Menu Customer Update/txt_classification_commercial'
+
+01-04-2024T23:57:39 - [TEST_STEP][PASSED] - delay(timeout, STOP_ON_FAILURE): Delayed 3 second(s)
+
+01-04-2024T23:57:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+01-04-2024T23:57:42 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/common/btn_create"), timeout): Tapped on element 'Object Repository/Mobile/common/btn_create'
+
+01-04-2024T23:57:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/common/btn_create'
+
+01-04-2024T23:57:42 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Mobile/common/msg_dataSaveSuccess"), timeout): Element 'Object Repository/Mobile/common/msg_dataSaveSuccess' is exist
+
+01-04-2024T23:57:43 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/common/msg_dataSaveSuccess' is exist
+
+01-04-2024T23:57:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+01-04-2024T23:57:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+01-04-2024T23:57:45 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("After Add Prospect Customer", []): Screenshot is taken
+
+01-04-2024T23:57:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+01-04-2024T23:57:46 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-After Add Prospect Customer.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-04-2024T23:56:34 - [TEST_SUITE][PASSED] - TS_Mobile: Test Cases/Mobile/Verify Successful Add Prospect Customer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

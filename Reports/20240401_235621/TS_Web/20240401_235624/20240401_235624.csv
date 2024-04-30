@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Web,Chrome 123.0.0.0,,,01-04-2024 23:57:59,01-04-2024 23:58:32,32.377s,PASSED
+,,,,,,,
+Test Cases/Website/MasterCustomer/Verify_SuccessfulSearchCustomerName,Chrome 123.0.0.0,,,01-04-2024 23:57:59,01-04-2024 23:58:32,32.152s,PASSED
+"callTestCase(findTestCase(""Website/Login/Verify Successful Login""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,01-04-2024 23:58:00,01-04-2024 23:58:14,13.915s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 123.0.0.0,,,01-04-2024 23:58:14,01-04-2024 23:58:19,5.021s,PASSED
+"click(findTestObject(""Website/Master Customer/menu_MasterCustomer""))",Chrome 123.0.0.0,,,01-04-2024 23:58:19,01-04-2024 23:58:20,0.846s,PASSED
+"verifyElementText(findTestObject(""Website/common/verify_currentpage""), ""Master Customer"")",Chrome 123.0.0.0,,,01-04-2024 23:58:20,01-04-2024 23:58:20,0.455s,PASSED
+delay(timeout),Chrome 123.0.0.0,,,01-04-2024 23:58:20,01-04-2024 23:58:23,3.007s,PASSED
+"verifyElementPresent(findTestObject(""Website/Master Customer/txt_searchbox""), timeout)",Chrome 123.0.0.0,,,01-04-2024 23:58:23,01-04-2024 23:58:23,0.296s,PASSED
+"callTestCase(findTestCase(""API/Find List Customer with Search""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,01-04-2024 23:58:23,01-04-2024 23:58:27,3.536s,PASSED
+"setText(findTestObject(""Website/Master Customer/txt_searchbox""), search_keyword)",Chrome 123.0.0.0,,,01-04-2024 23:58:27,01-04-2024 23:58:28,0.646s,PASSED
+"verifyElementPresent(findTestObject(""Website/Master Customer/verify_displayData""), timeout)",Chrome 123.0.0.0,,,01-04-2024 23:58:28,01-04-2024 23:58:28,0.760s,PASSED
+"verifyElementText(findTestObject(""Website/Master Customer/verify_customerName""), search_keyword)",Chrome 123.0.0.0,,,01-04-2024 23:58:28,01-04-2024 23:58:29,0.517s,PASSED
+delay(2),Chrome 123.0.0.0,,,01-04-2024 23:58:29,01-04-2024 23:58:31,2.009s,PASSED
+"takeScreenshotAsCheckpoint(""Success Get Data by Search"")",Chrome 123.0.0.0,,,01-04-2024 23:58:31,01-04-2024 23:58:32,0.730s,PASSED

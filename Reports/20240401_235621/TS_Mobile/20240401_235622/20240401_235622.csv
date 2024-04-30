@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Mobile,,,,01-04-2024 23:56:34,01-04-2024 23:57:46,1m - 11.706s,PASSED
+,,,,,,,
+Test Cases/Mobile/Verify Successful Add Prospect Customer,,,,01-04-2024 23:56:35,01-04-2024 23:57:46,1m - 11.437s,PASSED
+"callTestCase(findTestCase(""Mobile/Verify Successful Login""), [:], STOP_ON_FAILURE)",,,,01-04-2024 23:56:35,01-04-2024 23:57:26,50.915s,PASSED
+"tap(findTestObject(""Mobile/Menu Customer Update/menu_customerUpdate""), timeout)",,,,01-04-2024 23:57:26,01-04-2024 23:57:27,0.426s,PASSED
+"tap(findTestObject(""Mobile/common/btn_add""), timeout)",,,,01-04-2024 23:57:27,01-04-2024 23:57:28,1.478s,PASSED
+"tap(findTestObject(""Mobile/Menu Customer Update/btn_prospectCustomer""), timeout)",,,,01-04-2024 23:57:28,01-04-2024 23:57:29,0.865s,PASSED
+delay(timeout),,,,01-04-2024 23:57:29,01-04-2024 23:57:32,3.008s,PASSED
+"takeScreenshotAsCheckpoint(""Before Add Prospect Customer"", [])",,,,01-04-2024 23:57:32,01-04-2024 23:57:33,1.464s,PASSED
+"tap(findTestObject(""Mobile/Menu Customer Update/txt_customerName""), timeout)",,,,01-04-2024 23:57:33,01-04-2024 23:57:34,0.210s,PASSED
+"setText(findTestObject(""Mobile/Menu Customer Update/txt_customerName""), findTestData(""Prospect Customer"").getValue(1, 1), timeout)",,,,01-04-2024 23:57:34,01-04-2024 23:57:35,1.790s,PASSED
+"tap(findTestObject(""Mobile/Menu Customer Update/txt_customerInitial""), timeout)",,,,01-04-2024 23:57:35,01-04-2024 23:57:36,1.060s,PASSED
+"setText(findTestObject(""Mobile/Menu Customer Update/txt_customerInitial""), findTestData(""Prospect Customer"").getValue(2, 1), timeout)",,,,01-04-2024 23:57:36,01-04-2024 23:57:37,0.804s,PASSED
+"tap(findTestObject(""Mobile/Menu Customer Update/dropdown_classification""), timeout)",,,,01-04-2024 23:57:37,01-04-2024 23:57:38,0.759s,PASSED
+"tap(findTestObject(""Mobile/Menu Customer Update/txt_classification_commercial""), timeout)",,,,01-04-2024 23:57:38,01-04-2024 23:57:39,1.303s,PASSED
+"delay(timeout, STOP_ON_FAILURE)",,,,01-04-2024 23:57:39,01-04-2024 23:57:42,3.019s,PASSED
+"tap(findTestObject(""Mobile/common/btn_create""), timeout)",,,,01-04-2024 23:57:42,01-04-2024 23:57:42,0.149s,PASSED
+"verifyElementExist(findTestObject(""Mobile/common/msg_dataSaveSuccess""), timeout)",,,,01-04-2024 23:57:42,01-04-2024 23:57:43,0.954s,PASSED
+delay(2),,,,01-04-2024 23:57:43,01-04-2024 23:57:45,2.007s,PASSED
+"takeScreenshotAsCheckpoint(""After Add Prospect Customer"", [])",,,,01-04-2024 23:57:45,01-04-2024 23:57:46,0.696s,PASSED

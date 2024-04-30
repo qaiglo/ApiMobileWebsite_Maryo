@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Web" time="32.377" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Web" tests="1" failures="0" errors="0" time="32.377" skipped="0" timestamp="01-04-2024T23:57:59" hostname="1556 - LAPTOP-PT885S91" id="Test Suites/TS_Web">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\1556\\Katalon Studio\\Iglo msa\\Reports\\20240401_235621\\TS_Web\\20240401_235624"/>
+         <property name="logFiles" value="C:\\Users\\1556\\Katalon Studio\\Iglo msa\\Reports\\20240401_235621\\TS_Web\\20240401_235624\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Success Get Data by Search.png"/>
+         <property name="hostName" value="1556 - LAPTOP-PT885S91"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.139"/>
+         <property name="sessionId" value="80e7b0dfe91028394470fcbafbd76620"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Website/MasterCustomer/Verify_SuccessfulSearchCustomerName" time="32.152" classname="Test Cases/Website/MasterCustomer/Verify_SuccessfulSearchCustomerName" status="PASSED">
+         <system-out><![CDATA[01-04-2024T23:57:59 - [TEST_CASE][PASSED] - Test Cases/Website/MasterCustomer/Verify_SuccessfulSearchCustomerName: Test Cases/Website/MasterCustomer/Verify_SuccessfulSearchCustomerName
+
+01-04-2024T23:58:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Website/Login/Verify Successful Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Website/Login/Verify Successful Login' successfully
+
+01-04-2024T23:58:00 - [TEST_CASE][PASSED] - Test Cases/Website/Login/Verify Successful Login: Test Cases/Website/Login/Verify Successful Login
+
+01-04-2024T23:58:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-04-2024T23:58:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-04-2024T23:58:00 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+01-04-2024T23:58:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-04-2024T23:58:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-04-2024T23:58:02 - [TEST_STEP][PASSED] - navigateToUrl(url_website): Navigate to 'http://34.128.87.8:8084/login' successfully
+
+01-04-2024T23:58:07 - [MESSAGE][PASSED] - Navigate to 'http://34.128.87.8:8084/login' successfully
+
+01-04-2024T23:58:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Website/Login/verify_loginPage"), timeout): Object 'Object Repository/Website/Login/verify_loginPage' is present
+
+01-04-2024T23:58:07 - [MESSAGE][PASSED] - Object 'Object Repository/Website/Login/verify_loginPage' is present
+
+01-04-2024T23:58:07 - [TEST_STEP][PASSED] - setText(findTestObject("Website/Login/txt_username"), usename_website): Text 'admin@indocyber.com' is set on object 'Object Repository/Website/Login/txt_username'
+
+01-04-2024T23:58:08 - [MESSAGE][PASSED] - Text 'admin@indocyber.com' is set on object 'Object Repository/Website/Login/txt_username'
+
+01-04-2024T23:58:08 - [TEST_STEP][PASSED] - setText(findTestObject("Website/Login/txt_password"), password_website): Text 'admin123' is set on object 'Object Repository/Website/Login/txt_password'
+
+01-04-2024T23:58:08 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Website/Login/txt_password'
+
+01-04-2024T23:58:08 - [TEST_STEP][PASSED] - click(findTestObject("Website/Login/btn_login")): Object: 'Object Repository/Website/Login/btn_login' is clicked on
+
+01-04-2024T23:58:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Website/Login/btn_login' is clicked on
+
+01-04-2024T23:58:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Website/Login/verify_loginSuccess"), timeout): Object 'Object Repository/Website/Login/verify_loginSuccess' is present
+
+01-04-2024T23:58:14 - [MESSAGE][PASSED] - Object 'Object Repository/Website/Login/verify_loginSuccess' is present
+
+01-04-2024T23:58:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Website/Login/Verify Successful Login' successfully
+
+01-04-2024T23:58:14 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+01-04-2024T23:58:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+01-04-2024T23:58:19 - [TEST_STEP][PASSED] - click(findTestObject("Website/Master Customer/menu_MasterCustomer")): Object: 'Object Repository/Website/Master Customer/menu_MasterCustomer' is clicked on
+
+01-04-2024T23:58:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Website/Master Customer/menu_MasterCustomer' is clicked on
+
+01-04-2024T23:58:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Website/common/verify_currentpage"), "Master Customer"): Actual text and expected text of test object 'Object Repository/Website/common/verify_currentpage' are matched.
+
+01-04-2024T23:58:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Website/common/verify_currentpage' are matched.
+
+01-04-2024T23:58:20 - [TEST_STEP][PASSED] - delay(timeout): Delayed 3 second(s)
+
+01-04-2024T23:58:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+01-04-2024T23:58:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Website/Master Customer/txt_searchbox"), timeout): Object 'Object Repository/Website/Master Customer/txt_searchbox' is present
+
+01-04-2024T23:58:23 - [MESSAGE][PASSED] - Object 'Object Repository/Website/Master Customer/txt_searchbox' is present
+
+01-04-2024T23:58:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("API/Find List Customer with Search"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/API/Find List Customer with Search' successfully
+
+01-04-2024T23:58:23 - [TEST_CASE][PASSED] - Test Cases/API/Find List Customer with Search: Test Cases/API/Find List Customer with Search
+
+01-04-2024T23:58:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("API/Authentication/Verify_SuccessfulGetBearerToken"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/API/Authentication/Verify_SuccessfulGetBearerToken' successfully
+
+01-04-2024T23:58:24 - [TEST_CASE][PASSED] - Test Cases/API/Authentication/Verify_SuccessfulGetBearerToken: Test Cases/API/Authentication/Verify_SuccessfulGetBearerToken
+
+01-04-2024T23:58:24 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("API/Post Login")): Send request and verify the response successfully
+
+01-04-2024T23:58:26 - [MESSAGE][INFO] - HAR: C:\Users\1556\Katalon Studio\Iglo msa\Reports\20240401_235621\TS_Web\20240401_235624\requests\main\0.har
+
+01-04-2024T23:58:26 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+01-04-2024T23:58:26 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+01-04-2024T23:58:26 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+01-04-2024T23:58:26 - [TEST_STEP][PASSED] - bearerToken = getElementPropertyValue(response, "data.access_token"): null
+
+01-04-2024T23:58:26 - [TEST_STEP][PASSED] - statusCode = verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+01-04-2024T23:58:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+01-04-2024T23:58:26 - [TEST_STEP][PASSED] - out.println("API Get List Customer Status Code 200 = " + statusCode): null
+
+01-04-2024T23:58:26 - [TEST_STEP][PASSED] - out.println("Token  = " + bearerToken): null
+
+01-04-2024T23:58:26 - [MESSAGE][PASSED] - Verify response successfully
+
+01-04-2024T23:58:26 - [MESSAGE][PASSED] - All validation steps have been passed
+
+01-04-2024T23:58:26 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+01-04-2024T23:58:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/API/Authentication/Verify_SuccessfulGetBearerToken' successfully
+
+01-04-2024T23:58:26 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("API/Get List Customer with Search", ["bearer_token":bearerToken, "search":findTestData("Prospect Customer").getValue(2, 1)])): Send request and verify the response successfully
+
+01-04-2024T23:58:27 - [MESSAGE][INFO] - HAR: C:\Users\1556\Katalon Studio\Iglo msa\Reports\20240401_235621\TS_Web\20240401_235624\requests\main\1.har
+
+01-04-2024T23:58:27 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+01-04-2024T23:58:27 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+01-04-2024T23:58:27 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+01-04-2024T23:58:27 - [TEST_STEP][PASSED] - search_keyword = getElementPropertyValue(response, "data[0].initial"): null
+
+01-04-2024T23:58:27 - [TEST_STEP][PASSED] - out.println("Search keyword = " + search_keyword): null
+
+01-04-2024T23:58:27 - [MESSAGE][PASSED] - Verify response successfully
+
+01-04-2024T23:58:27 - [MESSAGE][PASSED] - All validation steps have been passed
+
+01-04-2024T23:58:27 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+01-04-2024T23:58:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/API/Find List Customer with Search' successfully
+
+01-04-2024T23:58:27 - [TEST_STEP][PASSED] - setText(findTestObject("Website/Master Customer/txt_searchbox"), search_keyword): Text 'TMK' is set on object 'Object Repository/Website/Master Customer/txt_searchbox'
+
+01-04-2024T23:58:28 - [MESSAGE][PASSED] - Text 'TMK' is set on object 'Object Repository/Website/Master Customer/txt_searchbox'
+
+01-04-2024T23:58:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Website/Master Customer/verify_displayData"), timeout): Object 'Object Repository/Website/Master Customer/verify_displayData' is present
+
+01-04-2024T23:58:28 - [MESSAGE][PASSED] - Object 'Object Repository/Website/Master Customer/verify_displayData' is present
+
+01-04-2024T23:58:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Website/Master Customer/verify_customerName"), search_keyword): Actual text and expected text of test object 'Object Repository/Website/Master Customer/verify_customerName' are matched.
+
+01-04-2024T23:58:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Website/Master Customer/verify_customerName' are matched.
+
+01-04-2024T23:58:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+01-04-2024T23:58:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+01-04-2024T23:58:31 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Success Get Data by Search"): Taking screenshot successfully
+
+01-04-2024T23:58:31 - [MESSAGE][INFO] - 0 hidden object(s)
+
+01-04-2024T23:58:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Success Get Data by Search.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-04-2024T23:57:59 - [TEST_SUITE][PASSED] - TS_Web: Test Cases/Website/MasterCustomer/Verify_SuccessfulSearchCustomerName]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

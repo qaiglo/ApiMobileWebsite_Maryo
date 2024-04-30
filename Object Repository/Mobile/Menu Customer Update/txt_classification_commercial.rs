@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>txt_classification_commercial</name>
+   <tag></tag>
+   <elementGuidId>7b120869-8a37-46d8-ab3d-e5facbce60e4</elementGuidId>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>content-desc</name>
+      <type>Main</type>
+      <value>Commercial</value>
+      <webElementGuid>d3b2b02b-4334-4094-a1dd-a249ed1e1242</webElementGuid>
+   </webElementProperties>
+   <locator>Commercial</locator>
+   <locatorStrategy>ACCESSIBILITY</locatorStrategy>
+</MobileElementEntity>

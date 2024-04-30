@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Web" time="10.79" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Web" tests="1" failures="0" errors="0" time="10.79" skipped="0" timestamp="03-04-2024T09:02:40" hostname="1556 - LAPTOP-PT885S91" id="Test Suites/TS_Web">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\1556\\Katalon Studio\\Iglo msa\\Reports\\20240403_090231\\TS_Web\\20240403_090231"/>
+         <property name="logFiles" value="C:\\Users\\1556\\Katalon Studio\\Iglo msa\\Reports\\20240403_090231\\TS_Web\\20240403_090231\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="1556 - LAPTOP-PT885S91"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.122"/>
+         <property name="sessionId" value="2f65e623caf58e6e85ae13d065b9ac21"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Website/Login/Verify Successful Login" time="10.469" classname="Test Cases/Website/Login/Verify Successful Login" status="PASSED">
+         <system-out><![CDATA[03-04-2024T09:02:41 - [TEST_CASE][PASSED] - Test Cases/Website/Login/Verify Successful Login: Test Cases/Website/Login/Verify Successful Login
+
+03-04-2024T09:02:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-04-2024T09:02:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-04-2024T09:02:42 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+03-04-2024T09:02:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-04-2024T09:02:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-04-2024T09:02:44 - [TEST_STEP][PASSED] - navigateToUrl(url_website): Navigate to 'http://34.128.87.8:8084/login' successfully
+
+03-04-2024T09:02:46 - [MESSAGE][PASSED] - Navigate to 'http://34.128.87.8:8084/login' successfully
+
+03-04-2024T09:02:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Website/Login/verify_loginPage"), timeout): Object 'Object Repository/Website/Login/verify_loginPage' is present
+
+03-04-2024T09:02:46 - [MESSAGE][PASSED] - Object 'Object Repository/Website/Login/verify_loginPage' is present
+
+03-04-2024T09:02:46 - [TEST_STEP][PASSED] - setText(findTestObject("Website/Login/txt_username"), usename_website): Text 'admin@indocyber.com' is set on object 'Object Repository/Website/Login/txt_username'
+
+03-04-2024T09:02:47 - [MESSAGE][PASSED] - Text 'admin@indocyber.com' is set on object 'Object Repository/Website/Login/txt_username'
+
+03-04-2024T09:02:47 - [TEST_STEP][PASSED] - setText(findTestObject("Website/Login/txt_password"), password_website): Text 'admin123' is set on object 'Object Repository/Website/Login/txt_password'
+
+03-04-2024T09:02:48 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Website/Login/txt_password'
+
+03-04-2024T09:02:48 - [TEST_STEP][PASSED] - click(findTestObject("Website/Login/btn_login")): Object: 'Object Repository/Website/Login/btn_login' is clicked on
+
+03-04-2024T09:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Website/Login/btn_login' is clicked on
+
+03-04-2024T09:02:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Website/Login/verify_loginSuccess"), timeout): Object 'Object Repository/Website/Login/verify_loginSuccess' is present
+
+03-04-2024T09:02:51 - [MESSAGE][PASSED] - Object 'Object Repository/Website/Login/verify_loginSuccess' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-04-2024T09:02:40 - [TEST_SUITE][PASSED] - TS_Web: Test Cases/Website/Login/Verify Successful Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

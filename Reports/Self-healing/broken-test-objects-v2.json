@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Website/menu_MasterCustomer",
+      "brokenLocator": "//ul[@class \u003d \u0027nav-menu custom-scrollbar\u0027] \u003e li : nth-child(1)",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "//ul[@class \u003d \u0027nav-menu custom-scrollbar\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Website/menu_MasterCustomer_BASIC.png"
+    }
+  ]
+}

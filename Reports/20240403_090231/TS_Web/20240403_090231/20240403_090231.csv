@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Web,Chrome 123.0.0.0,,,03-04-2024 09:02:40,03-04-2024 09:02:51,10.790s,PASSED
+,,,,,,,
+Test Cases/Website/Login/Verify Successful Login,Chrome 123.0.0.0,,,03-04-2024 09:02:41,03-04-2024 09:02:51,10.469s,PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,03-04-2024 09:02:41,03-04-2024 09:02:44,2.539s,PASSED
+navigateToUrl(url_website),Chrome 123.0.0.0,,,03-04-2024 09:02:44,03-04-2024 09:02:46,2.432s,PASSED
+"verifyElementPresent(findTestObject(""Website/Login/verify_loginPage""), timeout)",Chrome 123.0.0.0,,,03-04-2024 09:02:46,03-04-2024 09:02:46,0.404s,PASSED
+"setText(findTestObject(""Website/Login/txt_username""), usename_website)",Chrome 123.0.0.0,,,03-04-2024 09:02:46,03-04-2024 09:02:47,0.887s,PASSED
+"setText(findTestObject(""Website/Login/txt_password""), password_website)",Chrome 123.0.0.0,,,03-04-2024 09:02:47,03-04-2024 09:02:48,0.778s,PASSED
+"click(findTestObject(""Website/Login/btn_login""))",Chrome 123.0.0.0,,,03-04-2024 09:02:48,03-04-2024 09:02:49,0.456s,PASSED
+"verifyElementPresent(findTestObject(""Website/Login/verify_loginSuccess""), timeout)",Chrome 123.0.0.0,,,03-04-2024 09:02:49,03-04-2024 09:02:51,2.523s,PASSED
